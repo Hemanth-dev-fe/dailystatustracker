@@ -38,7 +38,7 @@ export default function UserFormPageDetails() {
     if (username) {
       dispatch(fetchUserData({ username, page: currentPage, limit }));
     }
-  }, [username, dispatch, currentPage]);
+  }, [username, dispatch, currentPage,limit]);
 
   const validateForm = () => {
   const newErrors = {};
