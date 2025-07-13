@@ -217,7 +217,7 @@ export default function UserFormPageDetails() {
         ) : (
           <div>
             <h2 className="text-xl font-bold text-blue-600 mb-4">
-              {username}'s Daily Update
+              {username}&apos;s Daily Update
             </h2>
             <div className="flex justify-between">
               <button
